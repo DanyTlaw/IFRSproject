@@ -14,5 +14,7 @@ Rails.application.routes.draw do
     get '/site11' => 'main#site11'
     get '/site12' => 'main#site12'
 
+    get '/downloads' => 'main#downloads'
+
     get '/change_locale/:locale', to: 'settings#change_locale', as: :change_locale
 end

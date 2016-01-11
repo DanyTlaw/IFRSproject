@@ -5,4 +5,7 @@ class MainController < ApplicationController
   def site1
 
   end
+
+  def downloads
+  end
 end
