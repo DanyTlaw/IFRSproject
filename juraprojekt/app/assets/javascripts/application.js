@@ -22,17 +22,12 @@ ready = function(){
 
     $(window).bind('resize',function(){
     	if($(window).width()<width){
-    		$(".content").css("position","relative");
+    		$(".colfixed").css("position","relative");
     	}else{
-    		    	$(".content").css("position","fixed");
+    		    	$(".colfixed").css("position","fixed");
     	}
 
     });
-
-    $(window).resize(function(){
-    	$(".content").css("position","relative");
-    });
-
 }
 
 

@@ -15,56 +15,54 @@
  */
 @import "bootstrap-sprockets";
 @import "bootstrap";
-
+.colfixed{
+  position:fixed;
+}
 .site{
   text-align: justify;
   z-index: 0;
   position:relative;
-  float: left;
+  float: right;
 }
-.colwidth{
 
-}
 @media only screen and (max-device-width:480px){
-  .content{
+  .colfixed{
     position: relative;
     width: 100%;
   }
 }
 
 @media only screen and (max-device-width:568px){
-  .content{
+  .colfixed{
     position: relative;
     width: 100%;
   }
 }
 
 @media only screen and (max-device-width:667px){
-  .content{
+  .colfixed{
     position: relative;
     width: 100%;
   }
 }
 
 @media only screen and (max-device-width:736px){
-  .content{
+  .colfixed{
     position: relative;
     width: 100%;
   }
 }
 @media only screen and (max-device-width:980px){
-  .content{
+  .colfixed{
     position: relative;
     width: 100%;
   }
 }
 
 .content{
-  position: fixed;
+  position: relative;
   z-index: 1;
   float:right;
-  height: auto;
-  width: auto;
 }
 
 .navbar{
