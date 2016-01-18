@@ -42,6 +42,11 @@
     position: relative;
   }
 }
+@media only screen and (max-device-width:980px){
+  .content{
+    position: relative;
+  }
+}
 
 .content{
   position: fixed;
