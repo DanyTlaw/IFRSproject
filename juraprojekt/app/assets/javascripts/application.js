@@ -19,6 +19,9 @@ var ready;
 ready = function(){
 	// window widt on desktop
 	var width = $(window).width();
+	if(width == 480 || width == 568 || width == 667 || width == 736){
+		$(".content").css("position","relative");
+	}
     $(window).bind('resize',function(){
     	if($(window).width()<width){
     		$(".content").css("position","relative");
