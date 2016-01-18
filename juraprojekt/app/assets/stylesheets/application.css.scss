@@ -19,6 +19,30 @@
 .site{
   text-align: justify;
 }
+@media only screen and (max-device-width:480px){
+  .content{
+    position: relative;
+  }
+}
+
+@media only screen and (max-device-width:568px){
+  .content{
+    position: relative;
+  }
+}
+
+@media only screen and (max-device-width:667px){
+  .content{
+    position: relative;
+  }
+}
+
+@media only screen and (max-device-width:736px){
+  .content{
+    position: relative;
+  }
+}
+
 .content{
   position: fixed;
   z-index: 0;
