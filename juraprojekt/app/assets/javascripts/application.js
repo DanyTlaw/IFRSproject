@@ -29,6 +29,10 @@ ready = function(){
 
     });
 
+    $(window).resize(function(){
+    	$(".content").css("position","relative");
+    });
+
 }
 
 

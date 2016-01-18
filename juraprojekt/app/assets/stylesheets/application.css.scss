@@ -18,6 +18,10 @@
 
 .site{
   text-align: justify;
+  z-index: 0;
+}
+.colwidth{
+
 }
 @media only screen and (max-device-width:480px){
   .content{
@@ -50,13 +54,14 @@
 
 .content{
   position: fixed;
-  z-index: 0;
+  z-index: 1;
+  float:right;
 }
 
 .navbar{
   margin-bottom: 40px;
   position:fixed;
-  z-index: 1;
+  z-index: 2;
   top:0px;
   width: 100%;
 }
