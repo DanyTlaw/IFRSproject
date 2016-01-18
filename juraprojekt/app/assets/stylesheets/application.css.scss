@@ -16,8 +16,19 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+.site{
+  text-align: justify;
+}
+.content{
+  position: fixed;
+  z-index: 0;
+}
+
 .navbar{
+  margin-bottom: 40px;
+  position:fixed;
   z-index: 1;
+  top:0px;
   width: 100%;
 }
 #logo{

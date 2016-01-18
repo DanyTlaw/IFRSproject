@@ -15,3 +15,21 @@
 //= require turbolinks
 //= require bootstrap-sprockets
 //= require_tree .
+var ready;
+ready = function(){
+	// window widt on desktop
+	var width = $(window).width();
+    $(window).bind('resize',function(){
+    	if($(window).width()<width){
+    		$(".content").css("position","relative");
+    	}else{
+    		    	$(".content").css("position","fixed");
+    	}
+
+    });
+
+}
+
+
+$(document).ready(ready);
+$(document).on('page:load',ready);
