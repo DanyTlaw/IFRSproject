@@ -28,29 +28,34 @@
 @media only screen and (max-device-width:480px){
   .content{
     position: relative;
+    width: 100%;
   }
 }
 
 @media only screen and (max-device-width:568px){
   .content{
     position: relative;
+    width: 100%;
   }
 }
 
 @media only screen and (max-device-width:667px){
   .content{
     position: relative;
+    width: 100%;
   }
 }
 
 @media only screen and (max-device-width:736px){
   .content{
     position: relative;
+    width: 100%;
   }
 }
 @media only screen and (max-device-width:980px){
   .content{
     position: relative;
+    width: 100%;
   }
 }
 
@@ -59,6 +64,7 @@
   z-index: 1;
   float:right;
   height: auto;
+  width: auto;
 }
 
 .navbar{
