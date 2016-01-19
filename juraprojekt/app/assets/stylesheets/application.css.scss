@@ -25,6 +25,20 @@
   float: right;
 }
 
+@media only screen and (max-device-width:360px){
+  .colfixed{
+    position: relative;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width:320px){
+  .colfixed{
+    position: relative;
+    width: 100%;
+  }
+}
+
 @media only screen and (max-device-width:480px){
   .colfixed{
     position: relative;
