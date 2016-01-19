@@ -21,6 +21,7 @@
 .site{
   h1,h2,h3,h4,h5{
     text-align: left;
+    max-width: 100%;
   }
   text-align: justify;
   z-index: 0;
@@ -31,6 +32,7 @@
   -moz-hyphens: auto;
   -webkit-hyphens: auto;
   hyphens: auto;
+  max-width: 100%;
 }
 
 @media only screen and (max-device-width:360px){
