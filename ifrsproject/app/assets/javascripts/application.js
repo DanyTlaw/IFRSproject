@@ -42,7 +42,6 @@ ready = function(){
 	};
 
 	if(isMobile.any()) {
-		   alert("This is a Mobile Device");
 		   $(".colfixed").css("position","relative");
 		}
 
