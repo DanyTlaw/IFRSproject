@@ -43,14 +43,17 @@ ready = function(){
 
 	if(isMobile.any()) {
 		   alert("This is a Mobile Device");
+		   $(".colfixed").css("position","relative");
 		}
-    $(window).bind('resize',function(){
-    	if($(window).width()<width){
-    		$(".colfixed").css("position","relative");
-    	}else{
-    		    	$(".colfixed").css("position","fixed");
-    	}
 
+    $(window).bind('resize',function(){
+    	if(!isMobile.any()){
+    	    if($(window).width()<width){
+    			$(".colfixed").css("position","relative");
+    		}else{
+    		   	$(".colfixed").css("position","fixed");
+    		}	
+    	}
     });
 }
 
