@@ -26,6 +26,11 @@
   z-index: 0;
   position:relative;
   float: right;
+
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
 }
 
 @media only screen and (max-device-width:360px){
