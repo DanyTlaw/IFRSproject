@@ -19,7 +19,7 @@ var ready;
 ready = function(){
 	// window widt on desktop
 	var width = $(window).width();
-
+	alert(window.width());
     $(window).bind('resize',function(){
     	if($(window).width()<width){
     		$(".colfixed").css("position","relative");
