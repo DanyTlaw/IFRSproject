@@ -1,0 +1,20 @@
+<nav class="navbar navbar-inverse">
+  <span id="logo">IFRSproject.org</span>
+	<ul class="nav  nav-pills">
+	  <li role="presentation" class="dropdown" style="float:right;">
+	    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+	      Languages <span class="caret"></span>
+	    </a>
+	    <ul class="dropdown-menu">
+	    	<li><%= link_to change_locale_path(:de) do %>
+			  Deutsch
+			<% end %>
+	    	<li><%= link_to change_locale_path(:en) do %>
+			  English
+			<% end %>
+	    </ul>
+	  </li>
+	  <li role="presentation" class="button" style="float:right;"><a href="<%= downloads_path%>">Downloads</a></li>
+	</ul>
+  
+</nav>
